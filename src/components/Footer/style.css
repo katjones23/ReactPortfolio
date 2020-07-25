@@ -1,0 +1,18 @@
+#myFooter {
+    border-top: 1px solid #eeeeee;
+    width: 100%;
+    background-color: black;
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+#linkedinIcon, #githubIcon {
+    color: #eeeeee;
+    padding: 5px;
+}
+
+#githubIcon {
+    height: 10px;
+}

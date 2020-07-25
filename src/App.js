@@ -5,12 +5,13 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer"
 
 function App() {
   return (
     <Router>
+      <Nav />
       <div>
-        <Nav />
         <Switch>
           {/* <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
@@ -19,6 +20,7 @@ function App() {
           <Route component={NoMatch} />
         </Switch>
       </div>
+      <Footer />
     </Router>
   );
 }
