@@ -3,8 +3,14 @@ html {
 }
 
 body {
-  background-image: url(./images/backgroundImgTatiana.jpg);
+  background-image: url(./images/backgroundImgTatiana.png);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
+}
+
+.notfound {
+  color: black;
+  text-align: center;
+  position: fixed;
 }
