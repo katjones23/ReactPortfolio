@@ -38,6 +38,37 @@ body {
   font-weight: bold;
 }
 
+.contactCard {
+  margin-top: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+.logo {
+  padding-bottom: 10px;
+  max-height: 100px;
+}
+
+#linkedinIcon, #githubIcon {
+  color: #eeeeee;
+  padding: 5px;
+}
+
+.contactHeader, .card-body {
+  color: #eeeeee;
+}
+
+@media screen and (max-width: 766px) {
+  .contact-container {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .contact-me {
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 415px) {    
   .about-me-text, .skills-text {
       font-size: 14px;

@@ -1,7 +1,7 @@
 import React from "react";
 import profile from "../images/profile.jpg"
 
-const NoMatch = () => {
+const About = () => {
     return (
         <section id="aboutSec" className="container d-flex flex-column">
             <div className="row justify-content-center">
@@ -27,4 +27,4 @@ const NoMatch = () => {
     );
 };
 
-export default NoMatch;
+export default About;
