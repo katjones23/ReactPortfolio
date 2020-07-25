@@ -2,8 +2,10 @@ import React from "react";
 
 const NoMatch = () => {
     return (
-        <div className="notfound container">
-            <h1>404 Page Not Found</h1>
+        <div className="container d-flex justify-content-center">
+            <div className="notfound col-md-6">
+                <h1>404 Page Not Found</h1>
+            </div>
         </div>
     );
 };
