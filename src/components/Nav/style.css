@@ -4,7 +4,7 @@
     font-size: 20px;
     background-color: black;
     min-height: 50px;
-    position: fixed;
+    position: sticky;
     top: 0;
 }
 

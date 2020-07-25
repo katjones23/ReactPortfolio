@@ -6,9 +6,9 @@ body {
   background-image: url(./images/backgroundImgTatiana.png);
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: center;
   margin: 0;
   padding: 0;
+  background-position: top;
 }
 
 .notfound {
@@ -16,5 +16,36 @@ body {
   text-align: center;
   position: fixed;
   top: 25%;
-  left: 15%
+}
+
+#aboutSec {
+  margin-top: 1%;
+}
+
+.profile {
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  padding: 1%;
+  border-radius: 50%;
+}
+
+.about-me {
+  text-align: center;
+}
+
+.skills-text {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 415px) {    
+  .about-me-text, .skills-text {
+      font-size: 14px;
+      margin-right: 3%
+  }
+
+  #aboutSec {
+    margin-bottom: 25%;
+    margin-left: 1%;
+  }
 }
