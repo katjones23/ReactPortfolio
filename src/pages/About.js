@@ -8,7 +8,7 @@ const About = () => {
                 <div className="col-md-8 col-sm-2 about-me">
                     <div className="row">
 
-                        <img src={profile} className="img-fluid profile" alt="Image of Katherine Jones"></img>
+                        <img src={profile} className="img-fluid profile" alt="Katherine Jones"></img>
 
                         <p className="about-me-text">I am Katherine, also known as Kat. I am a Full-Stack Developer, and particularly enjoy
                         working on the logic behind the site or application. I have a background in working with platform

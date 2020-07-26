@@ -44,6 +44,16 @@ body {
   text-decoration: none;
 }
 
+.portfolioCard {
+  margin-top: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+.portfolioCard {
+  margin-bottom: 10%;
+}
+
 .logo {
   padding-bottom: 10px;
   max-height: 100px;
@@ -56,6 +66,22 @@ body {
 
 .contactHeader, .card-body {
   color: #eeeeee;
+}
+
+.portLink, .portCard {
+  color: #495057;
+}
+
+.projectName {
+  font-weight: bold;
+}
+
+.portText {
+  color: #495057;
+}
+
+.repoLink {
+  margin-bottom: 2%;
 }
 
 @media screen and (max-width: 766px) {
