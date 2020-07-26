@@ -81,28 +81,52 @@ function Portfolio() {
                                     <div key={project.id.toString()} className="col-md-6 col-sm-12 card text-center bg-light">
                                         <h5 className="card-header">{project.projectname}</h5>
                                         <p className="card-body portText">{project.description}</p>
+                                        <a href={project.sitelink} title="SiteLink" rel="noopener noreferrer" target="_blank">Site Link</a>
+                                        <a className="repoLink" href={project.repolink} title="RepoLink" rel="noopener noreferrer" target="_blank">Repo Link</a>
                                     </div>
                                 ))}
                             </div>
                         </div>
 
                         <div className="tab-pane fade" id="front" role="tabpanel" aria-labelledby="front-tab">
-                            {projects.map(project => (
-                                <p key={project.id.toString()} className="projectName">{project.projectname}</p>
-                            ))}
+                            <div className="row">
+                                {projects.map(project => (
+                                    <div key={project.id.toString()} className="col-md-6 col-sm-12 card text-center bg-light">
+                                        <h5 className="card-header">{project.projectname}</h5>
+                                        <p className="card-body portText">{project.description}</p>
+                                        <a href={project.sitelink} title="SiteLink" rel="noopener noreferrer" target="_blank">Site Link</a>
+                                        <a className="repoLink" href={project.repolink} title="RepoLink" rel="noopener noreferrer" target="_blank">Repo Link</a>
+                                    </div>
+                                ))}
+                            </div>
                         </div>
 
                         <div className="tab-pane fade" id="back" role="tabpanel" aria-labelledby="back-tab">
-                            {projects.map(project => (
-                                <p key={project.id.toString()} className="projectName">{project.projectname}</p>
-                            ))}
+                            <div className="row">
+                                {projects.map(project => (
+                                    <div key={project.id.toString()} className="col-md-6 col-sm-12 card text-center bg-light">
+                                        <h5 className="card-header">{project.projectname}</h5>
+                                        <p className="card-body portText">{project.description}</p>
+                                        <a href={project.sitelink} title="SiteLink" rel="noopener noreferrer" target="_blank">Site Link</a>
+                                        <a className="repoLink" href={project.repolink} title="RepoLink" rel="noopener noreferrer" target="_blank">Repo Link</a>
+                                    </div>
+                                ))}
+                            </div>
                         </div>
 
                         <div className="tab-pane fade" id="full" role="tabpanel" aria-labelledby="full-tab">
-                            {projects.map(project => (
-                                <p key={project.id.toString()} className="projectName">{project.projectname}</p>
-                            ))}
+                            <div className="row">
+                                {projects.map(project => (
+                                    <div key={project.id.toString()} className="col-md-6 col-sm-12 card text-center bg-light">
+                                        <h5 className="card-header">{project.projectname}</h5>
+                                        <p className="card-body portText">{project.description}</p>
+                                        <a href={project.sitelink} title="SiteLink" rel="noopener noreferrer" target="_blank">Site Link</a>
+                                        <a className="repoLink" href={project.repolink} title="RepoLink" rel="noopener noreferrer" target="_blank">Repo Link</a>
+                                    </div>
+                                ))}
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>

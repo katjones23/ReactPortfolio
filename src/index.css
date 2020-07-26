@@ -74,6 +74,10 @@ body {
   color: #495057;
 }
 
+.repoLink {
+  margin-bottom: 2%;
+}
+
 @media screen and (max-width: 766px) {
   .contact-container {
     padding-right: 25px;
