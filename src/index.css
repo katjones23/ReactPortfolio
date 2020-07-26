@@ -38,8 +38,14 @@ body {
   font-weight: bold;
 }
 
-.contactCard, .portfolioCard {
+.contactCard {
   margin-top: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+.portfolioCard {
+  margin-top: 5%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-decoration: none;
 }

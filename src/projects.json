@@ -84,7 +84,7 @@
         "projectname": "Note Taker",
         "type": "back-end",
         "image": "notetaker.png",
-        "gif": "notetaker.gif",
+        "gif": "notetakergif.gif",
         "description": "A web app to write, save, and delete notes. Uses Express to save and retrieve the notes from a JSON file.",
         "sitelink": "https://kat-jones-express-note-taker.herokuapp.com/",
         "repolink": "https://github.com/katjones23/NoteTaker"
