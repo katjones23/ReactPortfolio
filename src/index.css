@@ -44,6 +44,10 @@ body {
   text-decoration: none;
 }
 
+.portfolioCard {
+  margin-bottom: 10%;
+}
+
 .logo {
   padding-bottom: 10px;
   max-height: 100px;
@@ -64,6 +68,10 @@ body {
 
 .projectName {
   font-weight: bold;
+}
+
+.portText {
+  color: #495057;
 }
 
 @media screen and (max-width: 766px) {

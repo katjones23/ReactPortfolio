@@ -75,14 +75,21 @@ function Portfolio() {
 
                 <div className="card-body portCard">
                     <div className="tab-content" id="myTabContent">
-                        <div className="tab-pane fade show active" id="front" role="tabpanel" aria-labelledby="front-tab">
+                        <div className="tab-pane fade show active" id="recent" role="tabpanel" aria-labelledby="recent-tab">
                             <div className="row">
                                 {projects.map(project => (
-                                    <div key={project.id.toString()} className="col-md-4 col-sm-12 card text-center bg-light">
+                                    <div key={project.id.toString()} className="col-md-6 col-sm-12 card text-center bg-light">
                                         <h5 className="card-header">{project.projectname}</h5>
+                                        <p className="card-body portText">{project.description}</p>
                                     </div>
                                 ))}
                             </div>
+                        </div>
+
+                        <div className="tab-pane fade" id="front" role="tabpanel" aria-labelledby="front-tab">
+                            {projects.map(project => (
+                                <p key={project.id.toString()} className="projectName">{project.projectname}</p>
+                            ))}
                         </div>
 
                         <div className="tab-pane fade" id="back" role="tabpanel" aria-labelledby="back-tab">
