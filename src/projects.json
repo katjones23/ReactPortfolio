@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "projectname": "Password Generator",
+        "type": "front-end",
+        "image": "passwordGen.png",
+        "gif": "passwordgen.gif",
+        "description": "A webpage with a password generator that will take input from the user as to length and character types to include in the password.",
+        "sitelink": "https://katjones23.github.io/KJ-password-generator/",
+        "repolink": "https://github.com/katjones23/KJ-password-generator"
+    },
+    {
+        "id": 2,
+        "projectname": "JavaScript Quiz",
+        "type": "front-end",
+        "image": "quiz.png",
+        "gif": "quiz.gif",
+        "description": "A short quiz of multiple choice questions to test your JavaScript knowledge.",
+        "sitelink": "https://katjones23.github.io/JavaScriptQuiz/",
+        "repolink": "https://github.com/katjones23/JavaScriptQuiz"
+    },
+    {
+        "id": 3,
+        "projectname": "Day Planner",
+        "type": "front-end",
+        "image": "dayPlanner.png",
+        "gif": "dayplanner.gif",
+        "description": "A day planner app for work hours 8-5 to enter and save events for the same day.",
+        "sitelink": "https://katjones23.github.io/DayPlanner/",
+        "repolink": "https://github.com/katjones23/DayPlanner"
+    },
+    {
+        "id": 4,
+        "projectname": "Weather App",
+        "type": "front-end",
+        "image": "weatherApp.png",
+        "gif": "weatherapp.gif",
+        "description": "A dynamic weather app that allows users to search cities, see search history, quickly redo previous searches, and see current weather and a five-day forecast.",
+        "sitelink": "https://katjones23.github.io/WeatherApp/",
+        "repolink": "https://github.com/katjones23/WeatherApp"
+    },
+    {
+        "id": 5,
+        "projectname": "Dr. Ryan Thompson Portfolio",
+        "type": "front-end",
+        "image": "profryanthompson.png",
+        "gif": "rtsite.gif",
+        "description": "A webpage portfolio for Dr. Ryan Thompson.",
+        "sitelink": "https://profryanthompson.com/",
+        "repolink": "https://github.com/katjones23/Dr-Ryan-Thompson-Webpage"
+    },
+    {
+        "id": 6,
+        "projectname": "N2Movies",
+        "type": "front-end",
+        "image": "n2movies.png",
+        "gif": "n2movies.gif",
+        "description": "A collaboratively developed web application that populates movie recommendations based off of a movie name.",
+        "sitelink": "https://katjones23.github.io/N2Movies/",
+        "repolink": "https://github.com/katjones23/N2Movies"
+    },
+    {
+        "id": 7,
+        "projectname": "README Generator",
+        "type": "back-end",
+        "image": "readme.png",
+        "gif": "readmegif.gif",
+        "description": "A generator for a markdown README file for GitHub users.",
+        "sitelink": "https://github.com/katjones23/READMEGenerator",
+        "repolink": "https://github.com/katjones23/READMEGenerator"
+    },
+    {
+        "id": 8,
+        "projectname": "Employee Template",
+        "type": "back-end",
+        "image": "employeetemplate.png",
+        "gif": "employeegif.gif",
+        "description": "A Node CLI that prompts the user for information about any number of managers, engineers, and interns, and generates an HTML file in the 'output' folder that displays summaries for each person.",
+        "sitelink": "https://github.com/katjones23/EmployeeTemplate",
+        "repolink": "https://github.com/katjones23/EmployeeTemplate"
+    },
+    {
+        "id": 9,
+        "projectname": "Note Taker",
+        "type": "back-end",
+        "image": "notetaker.png",
+        "gif": "notetaker.gif",
+        "description": "A web app to write, save, and delete notes. Uses Express to save and retrieve the notes from a JSON file.",
+        "sitelink": "https://kat-jones-express-note-taker.herokuapp.com/",
+        "repolink": "https://github.com/katjones23/NoteTaker"
+    },
+    {
+        "id": 10,
+        "projectname": "Employee Tracker",
+        "type": "back-end",
+        "image": "employeetracker.png",
+        "gif": "employeetracker.gif",
+        "description": "A Node command line app for managing an employee list with departments and roles.",
+        "sitelink": "https://github.com/katjones23/EmployeeTracker",
+        "repolink": "https://github.com/katjones23/EmployeeTracker"
+    },
+    {
+        "id": 11,
+        "projectname": "Recipe XChange",
+        "type": "full-stack",
+        "image": "recipexchange.jpg",
+        "gif": "recipexchangegif.gif",
+        "description": "“Recipe-Xchange” is a web app built with a group for saving and searching recipes with nutritional information calculated and provided.",
+        "sitelink": "https://recipe-xchange.herokuapp.com/",
+        "repolink": "https://github.com/AndreaGT91/Recipe-Xchange"
+    }
+]
