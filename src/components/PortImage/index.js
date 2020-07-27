@@ -1,9 +1,9 @@
 import React from "react";
-// import "./style.css";
+import "./style.css";
 
-const Image = ({source}) => {
+const Image = ({source, altTxt}) => {
     return (
-       <img src={`../images/${source}`} alt="projectgif" className="portImg"></img>
+       <img src={source} alt={altTxt} className="portImg"></img>
     );
 };
 

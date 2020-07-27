@@ -5,8 +5,8 @@ import Row from "../components/Row"
 
 const About = () => {
     return (
-        <Section id="aboutSec">
-            <div className="col-md-8 col-sm-2 about-me">
+        <Section>
+            <div id="aboutSec" className="col-md-8 col-sm-2 about-me">
                 <Row>
                     <img src={profile} className="img-fluid profile" alt="Katherine Jones"></img>
 
