@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.58109d7c.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.b0fe0d1a.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.b0fe0d1a.chunk.js.map",
+    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.ad87311a.js",
+    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.ad87311a.js.map",
+    "static/js/2.1116748b.chunk.js": "/ReactPortfolio/static/js/2.1116748b.chunk.js",
+    "static/js/2.1116748b.chunk.js.map": "/ReactPortfolio/static/js/2.1116748b.chunk.js.map",
+    "index.html": "/ReactPortfolio/index.html",
+    "precache-manifest.8b8ba18e84e34844795dd23e876b3f13.js": "/ReactPortfolio/precache-manifest.8b8ba18e84e34844795dd23e876b3f13.js",
+    "service-worker.js": "/ReactPortfolio/service-worker.js",
+    "static/css/main.58109d7c.chunk.css.map": "/ReactPortfolio/static/css/main.58109d7c.chunk.css.map",
+    "static/js/2.1116748b.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.1116748b.chunk.js.LICENSE.txt",
+    "static/media/KatherineJonesResume.pdf": "/ReactPortfolio/static/media/KatherineJonesResume.c89c9216.pdf",
+    "static/media/backgroundImgTatiana.png": "/ReactPortfolio/static/media/backgroundImgTatiana.78548d9b.png",
+    "static/media/budgettracker.png": "/ReactPortfolio/static/media/budgettracker.404ce0e2.png",
+    "static/media/dayplanner.png": "/ReactPortfolio/static/media/dayplanner.8b4c4b31.png",
+    "static/media/employeetemplate.gif": "/ReactPortfolio/static/media/employeetemplate.9a9d8b76.gif",
+    "static/media/employeetracker.gif": "/ReactPortfolio/static/media/employeetracker.05416698.gif",
+    "static/media/n2movies.png": "/ReactPortfolio/static/media/n2movies.507c7e9b.png",
+    "static/media/notetaker.png": "/ReactPortfolio/static/media/notetaker.86968766.png",
+    "static/media/passwordgen.png": "/ReactPortfolio/static/media/passwordgen.ebfd990b.png",
+    "static/media/profile.jpg": "/ReactPortfolio/static/media/profile.12bf670a.jpg",
+    "static/media/quiz.png": "/ReactPortfolio/static/media/quiz.7c6fb1c5.png",
+    "static/media/readme.gif": "/ReactPortfolio/static/media/readme.c2760d3b.gif",
+    "static/media/recipexchange.jpg": "/ReactPortfolio/static/media/recipexchange.087f1df3.jpg",
+    "static/media/rtsite.png": "/ReactPortfolio/static/media/rtsite.2eda5d4a.png",
+    "static/media/userdirectory.png": "/ReactPortfolio/static/media/userdirectory.5d1c7779.png",
+    "static/media/weatherapp.png": "/ReactPortfolio/static/media/weatherapp.ef2df3ad.png",
+    "static/media/workouttracker.png": "/ReactPortfolio/static/media/workouttracker.4b4861c0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad87311a.js",
+    "static/js/2.1116748b.chunk.js",
+    "static/css/main.58109d7c.chunk.css",
+    "static/js/main.b0fe0d1a.chunk.js"
+  ]
+}
