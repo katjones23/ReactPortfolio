@@ -1,12 +1,13 @@
 import React from "react";
+import Section from "../components/Section"
 
 const NoMatch = () => {
     return (
-        <div className="container d-flex justify-content-center">
+        <Section>
             <div className="notfound col-md-6">
                 <h1>404 Page Not Found</h1>
             </div>
-        </div>
+        </Section>
     );
 };
 
