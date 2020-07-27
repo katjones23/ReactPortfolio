@@ -44,13 +44,10 @@ body {
   text-decoration: none;
 }
 
-.portfolioCard {
+.portfolioMain {
   margin-top: 5%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-decoration: none;
-}
-
-.portfolioCard {
   margin-bottom: 10%;
 }
 
@@ -93,9 +90,13 @@ body {
   .contact-me {
     margin: 0 auto;
   }
+
+  .portfolioMain {
+    margin-bottom: 35%;
+  }
 }
 
-@media screen and (max-width: 415px) {    
+@media screen and (max-width: 450px) {    
   .about-me-text, .skills-text {
       font-size: 14px;
       margin-right: 3%
