@@ -30,7 +30,7 @@
         "id": 4,
         "projectname": "Weather App",
         "type": "front-end",
-        "image": "weatherapp.png",
+        "image": "weatherApp.png",
         "description": "A dynamic weather app that allows users to search cities, see search history, quickly redo previous searches, and see current weather and a five-day forecast.",
         "sitelink": "https://katjones23.github.io/WeatherApp/",
         "repolink": "https://github.com/katjones23/WeatherApp"
