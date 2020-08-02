@@ -124,5 +124,14 @@
         "description": "An employee directory that allows for filtering based off department or employee name. Columns can also be sorted.",
         "sitelink": "https://kj-user-directory.herokuapp.com/",
         "repolink": "https://github.com/katjones23/UserDirectory"
-    }
+    },
+    {
+        "id": 15,
+        "projectname": "Google Books Search",
+        "type": "full-stack",
+        "image": "googlebookssearch.png",
+        "description": "An application connected to Google Books that allows users to search books, view them on Google Books, save them to the app, and delete them from the saved list.",
+        "sitelink": "https://kj-google-books-search.herokuapp.com/",
+        "repolink": "https://github.com/katjones23/GoogleBooksSearch"
+    } 
 ]
