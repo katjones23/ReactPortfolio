@@ -1,8 +1,19 @@
 #myFooter {
+    text-align: center;
     border-top: 1px solid #eeeeee;
     width: 100%;
-    background-color: black;
+    background-color: #343a40;
     position: sticky;
     bottom: 0;
-    margin-top: 5%;
+    margin-top: 100px;
+    padding: 2% 10% 1% 10%;
+    font-size: 1em;
 }
+
+@media screen and (max-width: 450px) {   
+    #myFooter {
+        padding-top: 5%;
+        padding-bottom: 10%;
+    } 
+    
+  }

@@ -5,9 +5,9 @@ import Section from "../components/Section"
 
 const Contact = () => {
     return (
-        <div className="contact-container">
+        <div className="contactContainer">
             <Section>
-                <div className="col-md-6 contact-me">
+                <div className="col-md-6 contactMe">
                     <div className="contactCard card text-center bg-dark">
 
                         <div className="card-header contactHeader">

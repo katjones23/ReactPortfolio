@@ -17,7 +17,7 @@ Licensed under the ISC license.
 
 ## Credits
 
-* [Tatiana]( https://www.pexels.com/@tatiana-18128) for the background image.
+* [Ibrahim Rayyan](https://medium.com/@Rayyan995/how-to-make-a-background-video-component-in-react-8725e32da272)
 
 ## Questions
 
