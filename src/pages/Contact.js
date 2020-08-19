@@ -5,9 +5,9 @@ import Section from "../components/Section"
 
 const Contact = () => {
     return (
-        <div className="contact-container">
+        <div className="contactContainer">
             <Section>
-                <div className="col-md-6 contact-me">
+                <div className="col-md-6 contactMe">
                     <div className="contactCard card text-center bg-dark">
 
                         <div className="card-header contactHeader">
@@ -16,14 +16,13 @@ const Contact = () => {
 
                         <div className="card-body">
                             <img className="logo" src={logo} alt="Logo"></img>
-                            <h5 className="card-title">Katherine Jones</h5>
+                            <p>
                             <a className="resume" href={resume} rel="noopener noreferrer" target="_blank"
                                 title="Resume link">Resume</a>
-                            <br></br>
-                            <br></br>
+                            </p>
+
                             <a className="contactLinks" href="mailto:thedevkat@gmail.com" title="Email link">thedevkat@gmail.com</a>
-                            <br></br>
-                            <br></br>
+
                             <p>
                                 <a href="https://www.linkedin.com/in/katherineetjones/" title="LinkedIn" rel="noopener noreferrer" target="_blank">
                                     <i id="linkedinIcon" className="fab fa-linkedin fa-2x"></i>

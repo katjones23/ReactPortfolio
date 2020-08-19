@@ -1,9 +1,5 @@
-html, body {
-  height: 100%;
-}
-
 body {
-  background-image: url(./images/backgroundImgTatiana.png);
+  background-color: #D6D8D9;
   background-repeat: no-repeat;
   background-size: auto;
   margin: 0;
@@ -11,42 +7,66 @@ body {
   background-position: top;
 }
 
-.notfound {
-  color: black;
-  text-align: center;
-  position: fixed;
-  top: 25%;
+.contactContainer { 
+  height: 100vh;
 }
 
-#aboutSec {
-  margin-top: 1%;
-}
-
-.profile {
+.profileImg {
   margin: 0 auto;
-  width: 200px;
+  width: 25%;
   height: auto;
   padding: 1%;
   border-radius: 50%;
+  display: block;
+  margin: 15px auto;
+  border: #f1f1f1 1px solid;
 }
 
-.about-me {
+.aboutMe {
   text-align: center;
+  width: 75%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.skills-text {
-  font-weight: bold;
+.aboutHeader {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-style: italic;
+}
+
+.abouMeText {
+  padding: 10px;
+}
+
+.skillsBox {
+  border-radius: 20px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 100px;
+  justify-content: center;
+  text-align: center;
+  padding: 2%;
+}
+
+.skillsText {
+  padding: 2%;
+  text-align: center
+}
+
+.skillsList {
+  list-style-type: none;
 }
 
 .contactCard {
   margin-top: 10%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
   text-decoration: none;
 }
 
 .portfolioMain {
   margin-top: 5%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
   text-decoration: none;
   margin-bottom: 10%;
 }
@@ -82,12 +102,12 @@ body {
 }
 
 @media screen and (max-width: 766px) {
-  .contact-container {
+  .contactContainer {
     padding-right: 25px;
     padding-left: 25px;
   }
 
-  .contact-me {
+  .contactMe {
     margin: 0 auto;
   }
 
@@ -97,9 +117,15 @@ body {
 }
 
 @media screen and (max-width: 450px) {    
-  .about-me-text, .skills-text {
+  .abouMeText, .skillsText {
       font-size: 14px;
-      margin-right: 3%
+      margin-right: 3%;
+      margin-left: 3%
+  }
+
+  .skillsList {
+    font-size: 12px;
+    justify-items: center;
   }
 
   #aboutSec {

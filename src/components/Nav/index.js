@@ -3,7 +3,7 @@ import "./style.css";
 
 const Nav = () => {
     return (
-        <nav className="navbar navbar-expand-md navbar-dark fixed-top navbarCustom">
+        <nav className="navbar navbar-expand-md navbar-dark navbarCustom">
             <div className="container">
                 <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
