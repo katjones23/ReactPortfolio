@@ -133,14 +133,5 @@
         "description": "An application connected to Google Books that allows users to search books, view them on Google Books, save them to the app, and delete them from the saved list.",
         "sitelink": "https://kj-google-books-search.herokuapp.com/",
         "repolink": "https://github.com/katjones23/GoogleBooksSearch"
-    },
-    {
-        "id": 16,
-        "projectname": "Build-A-Base",
-        "type": "full-stack",
-        "image": "bab.png",
-        "description": "An application for viewing and managing information from user-supplied spreadsheets.",
-        "sitelink": "https://build-a-base.herokuapp.com/",
-        "repolink": "https://github.com/AndreaGT91/Build-A-Base"
-    } 
+    }
 ]
